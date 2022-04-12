@@ -8,7 +8,20 @@
         }
       }
     },
-    "hp1": {}
+    "hp1": {
+      "label1": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "Lysing": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
   },
   "slices": {
     "TimeImageRight": {},
