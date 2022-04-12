@@ -1,0 +1,35 @@
+{
+  "id": "hp1",
+  "label": "HomePage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "label1": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Label1",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "mbl1": {
+        "type": "Link",
+        "config": {
+          "label": "Mbl1",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "image1": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Image1"
+        }
+      }
+    }
+  }
+}
