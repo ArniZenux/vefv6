@@ -22,6 +22,40 @@
           "allowTargetBlank": true,
           "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
         }
+      },
+      "image1": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Image1"
+        }
+      },
+      "link1": {
+        "type": "Link",
+        "config": {
+          "label": "Link1",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "ff1": {
+        "type": "Link",
+        "config": {
+          "label": "Ff1",
+          "select": "document"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "flower": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }
