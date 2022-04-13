@@ -14,7 +14,7 @@ const NotFoundPage = () => {
           Page Not Found
         </h1>
         <p className="text-center">
-          <PrismicLink href="/" className="hover:underline">
+          <PrismicLink href="/">
             Go to the homepage &rarr;
           </PrismicLink>
         </p>

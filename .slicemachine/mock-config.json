@@ -21,7 +21,8 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "fp1": {}
   },
   "slices": {
     "TimeImageRight": {},
@@ -37,6 +38,42 @@
           "description": {
             "config": {
               "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Ros": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Gulros": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Gulrot": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
               "blocks": 1
             }
           }

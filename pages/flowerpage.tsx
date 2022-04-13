@@ -5,36 +5,36 @@ import { Layout } from '../components/Layout';
 import { HomeHeader } from "../components/HomeHeader";
 import { SetupRepo } from '../components/SetupRepo';
 
+import { components } from "../slices/index.js";
 import { createClient } from "../prismicio";
+import { SliceZone } from '@prismicio/react';
 
-function Home({ HomePage }) {
-  console.log("Function Home(): " + HomePage);
-  if( !HomePage ){
+function Home({ FlowerPage, slices }) {
+  console.log("Function Flower(): " + FlowerPage);
+  if( !FlowerPage ){
     return <SetupRepo />;
   }
 
   return (
     <Layout> 
       <Head>
-        <title> {prismicH.asText(HomePage.data.label1)} </title> 
+        <title> {prismicH.asText(FlowerPage.data.blom)} </title> 
        </Head>
-       <p>Tilraun</p> 
        <HomeHeader
-        label1={HomePage.data.label1}
-        lysing1={HomePage.data.lysing1}
+        label1={FlowerPage.data.blom}
        />
+      <SliceZone slices={slices} components={components} />
     </Layout>      
   )
 }
 
-
 export async function getStaticProps(context) {
   const client = createClient({ context });
 
-  let HomePage = null;
-  console.log("getStaticProps: " +  HomePage);
+  let FlowerPage = null; 
+
   try {
-    HomePage = await client.getSingle("hp1");
+    FlowerPage = await client.getSingle("fp1");
   } catch {
     // If we reach this line, it means a Blog Home document was not created
     // yet. We don't need to do anything here. We will render a component on
@@ -47,7 +47,8 @@ export async function getStaticProps(context) {
 */
   return {
     props: {
-      HomePage,
+      FlowerPage,
+      slices: FlowerPage.data.slices,
     },
   };
 }
