@@ -38,6 +38,14 @@
           "select": "document"
         }
       },
+      "image1": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Image1"
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

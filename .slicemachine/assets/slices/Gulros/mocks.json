@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "gulros",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Unleash vertical communities",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Nulla exercitation nisi adipisicing nostrud cupidatat esse veniam quis officia. Ea reprehenderit deserunt ea magna exercitation eiusmod sit non qui magna quis enim dolore.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

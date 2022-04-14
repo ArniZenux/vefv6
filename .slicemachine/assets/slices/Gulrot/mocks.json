@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "gulrot",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Evolve compelling convergence",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Reprehenderit non in consectetur consequat est do sunt sit do. Excepteur esse amet dolor laborum mollit.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

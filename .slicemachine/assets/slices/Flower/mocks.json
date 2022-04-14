@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "flower",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Optimize web-enabled blockchains",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Elit consequat dolore tempor eu culpa ad excepteur excepteur pariatur non deserunt sunt. Commodo ea et Lorem voluptate occaecat. Nisi irure occaecat aute.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

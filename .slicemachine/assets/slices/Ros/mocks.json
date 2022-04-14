@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "ros",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Scale interactive models",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Elit esse aliqua officia enim non aliquip. Anim amet ex id qui occaecat. Et do enim voluptate reprehenderit nisi id dolor in voluptate reprehenderit veniam non occaecat minim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
