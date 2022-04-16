@@ -1,13 +1,13 @@
-//import type { NextPage } from 'next'
-//import Image from 'next/image'
-//import styles from '../styles/Home.module.css'
 import Head from 'next/head';
 import { GetStaticProps } from "next";
-import * as prismicH from "@prismicio/helpers";
-import React, { FC } from 'react';
-import { Layout } from '../components/Layout';
-import HomeHeader from "../components/HomeHeader";
+import { SliceZone } from "@prismicio/react";
 import { createClient } from "../prismicio";
+import { components } from "../slices";
+import * as prismicH from "@prismicio/helpers";
+
+import { Layout } from '../components/Layout/Layout';
+import HomeHeader from "../components/Home/HomeHeader";
+import React, { FC } from 'react';
 
 interface IndexProps {
   HomePage: any;
@@ -17,11 +17,11 @@ const Home: FC<IndexProps> = ({ HomePage }) => {
   console.log("Function Home(): " + HomePage);
   if( !HomePage ){
     return (
-        <Layout>
+        <Layout>o
           <Head>
-            <title> Hello tilrun </title>
+            <title> Verkefni 6 - 2022 </title>
           </Head>
-          <p> ekki til en flott hjá þer </p>
+          <p> Það virkar en ekki á prismic.io - rétt leið </p>
         </Layout>
     );
   }
@@ -34,8 +34,8 @@ const Home: FC<IndexProps> = ({ HomePage }) => {
        <HomeHeader
         label1={HomePage.data.label1}
         lysing1={HomePage.data.lysing1}
-        link1={HomePage.data.link1}  
        />
+      <SliceZone slices={HomePage.data.slices} components={components} /> 
     </Layout>
   )
 }
@@ -44,6 +44,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const client = createClient();
 
   let HomePage = null;
+  let gulRos = null;
 
   try {
     HomePage = await client.getSingle("hp1");
@@ -55,6 +56,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       HomePage: HomePage,
+      gulRos: HomePage?.data,
     },
   };
 }
