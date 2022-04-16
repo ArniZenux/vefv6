@@ -1,7 +1,7 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
-const Gulrot = ({ slice }) => (
+const Raudros = ({ slice }) => (
   <section>
     <span className="title">
       {
@@ -28,4 +28,4 @@ const Gulrot = ({ slice }) => (
   </section>
 )
 
-export default Gulrot
+export default Raudros

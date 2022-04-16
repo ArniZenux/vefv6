@@ -1,21 +1,21 @@
 {
-  "id": "gulrot",
+  "id": "hvitros",
   "type": "SharedSlice",
-  "name": "Gulrot",
-  "description": "Gulrot",
+  "name": "Hvitros",
+  "description": "Hvitros",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Gulrot",
+      "description": "Hvitros",
       "primary": {
         "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Gulrót er gott og best",
-            "placeholder": "allt um gulrót",
+            "label": "hvitrosLabel",
+            "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
             "single": "heading1"
           }
@@ -23,9 +23,18 @@
         "description": {
           "type": "StructuredText",
           "config": {
-            "single": "paragraph",
-            "label": "Description",
-            "placeholder": "A nice description of your feature"
+            "label": "hvitrosLysing",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "hvitrosImage": {
+          "type": "Image",
+          "config": {
+            "constraint": {},
+            "thumbnails": [],
+            "label": "Hvitros Image"
           }
         }
       },

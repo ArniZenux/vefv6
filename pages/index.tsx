@@ -2,6 +2,8 @@ import Head from 'next/head';
 import { GetStaticProps } from "next";
 import { SliceZone } from "@prismicio/react";
 import { createClient } from "../prismicio";
+import { PrismicLink, PrismicRichText } from "@prismicio/react";
+
 import { components } from "../slices";
 import * as prismicH from "@prismicio/helpers";
 

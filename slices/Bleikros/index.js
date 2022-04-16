@@ -1,7 +1,7 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
-const Ros = ({ slice }) => (
+const Bleikros = ({ slice }) => (
   <section>
     <span className="title">
       {
@@ -28,4 +28,4 @@ const Ros = ({ slice }) => (
   </section>
 )
 
-export default Ros
+export default Bleikros

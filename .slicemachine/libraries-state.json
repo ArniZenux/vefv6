@@ -1,29 +1,29 @@
 {
   "slices": {
     "components": {
-      "flower": {
+      "bleikros": {
         "library": "slices",
-        "id": "flower",
-        "name": "Flower",
-        "description": "Flower",
+        "id": "bleikros",
+        "name": "Bleikros",
+        "description": "Bleikros",
         "model": {
-          "id": "flower",
+          "id": "bleikros",
           "type": "SharedSlice",
-          "name": "Flower",
-          "description": "Flower",
+          "name": "Bleikros",
+          "description": "Bleikros",
           "variations": [
             {
               "id": "default",
               "name": "Default",
               "docURL": "...",
               "version": "sktwi1xtmkfgx8626",
-              "description": "Flower",
+              "description": "Bleikros",
               "primary": {
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "Róslilja",
-                    "placeholder": "",
+                    "label": "bleikrosLabel",
+                    "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
                     "single": "heading1"
                   }
@@ -31,10 +31,18 @@
                 "description": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "Róslilja er falleg ",
-                    "placeholder": "",
+                    "label": "bleikrosLysing",
+                    "placeholder": "A nice description of your feature",
                     "allowTargetBlank": true,
                     "single": "paragraph"
+                  }
+                },
+                "bleikrosImage": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Bleikros Image"
                   }
                 }
               },
@@ -47,23 +55,32 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "flower",
+            "slice_type": "bleikros",
             "items": [],
             "primary": {
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Optimize web-enabled blockchains",
+                  "text": "Reintermediate end-to-end e-commerce",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Elit consequat dolore tempor eu culpa ad excepteur excepteur pariatur non deserunt sunt. Commodo ea et Lorem voluptate occaecat. Nisi irure occaecat aute.",
+                  "text": "Id incididunt nostrud nisi voluptate ex eu labore voluptate. Laborum duis aliqua anim anim velit aute.",
                   "spans": []
                 }
-              ]
+              ],
+              "bleikrosImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+              }
             }
           }
         },
@@ -71,7 +88,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\haskoli\\vor2022\\vefforritunII\\vefv6\\.slicemachine\\assets\\slices\\Bleikros\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
       },
       "gulros": {
         "library": "slices",
@@ -94,8 +117,8 @@
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "Gulrós",
-                    "placeholder": "Bara gulrós og allt um gull",
+                    "label": "gulrosLabel",
+                    "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
                     "single": "heading1"
                   }
@@ -103,9 +126,18 @@
                 "description": {
                   "type": "StructuredText",
                   "config": {
-                    "single": "paragraph",
-                    "label": "Description",
-                    "placeholder": "A nice description of your feature"
+                    "label": "gulrosLysing",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "gulrosImage": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Gulros Image"
                   }
                 }
               },
@@ -124,17 +156,26 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Unleash vertical communities",
+                  "text": "Mesh 24/7 infomediaries",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Nulla exercitation nisi adipisicing nostrud cupidatat esse veniam quis officia. Ea reprehenderit deserunt ea magna exercitation eiusmod sit non qui magna quis enim dolore.",
+                  "text": "Reprehenderit nisi nisi veniam exercitation dolore non magna incididunt reprehenderit deserunt ea commodo irure irure consequat. Non quis cillum consectetur id ut aliqua exercitation dolor irure pariatur cupidatat culpa. Incididunt aute commodo laborum aute cillum esse do esse minim deserunt deserunt adipisicing.",
                   "spans": []
                 }
-              ]
+              ],
+              "gulrosImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+              }
             }
           }
         },
@@ -142,31 +183,37 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\haskoli\\vor2022\\vefforritunII\\vefv6\\.slicemachine\\assets\\slices\\Gulros\\default\\preview.png",
+            "width": 800,
+            "height": 157
+          }
+        }
       },
-      "gulrot": {
+      "hvitros": {
         "library": "slices",
-        "id": "gulrot",
-        "name": "Gulrot",
-        "description": "Gulrot",
+        "id": "hvitros",
+        "name": "Hvitros",
+        "description": "Hvitros",
         "model": {
-          "id": "gulrot",
+          "id": "hvitros",
           "type": "SharedSlice",
-          "name": "Gulrot",
-          "description": "Gulrot",
+          "name": "Hvitros",
+          "description": "Hvitros",
           "variations": [
             {
               "id": "default",
               "name": "Default",
               "docURL": "...",
               "version": "sktwi1xtmkfgx8626",
-              "description": "Gulrot",
+              "description": "Hvitros",
               "primary": {
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "Gulrót er gott og best",
-                    "placeholder": "allt um gulrót",
+                    "label": "hvitrosLabel",
+                    "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
                     "single": "heading1"
                   }
@@ -174,9 +221,18 @@
                 "description": {
                   "type": "StructuredText",
                   "config": {
-                    "single": "paragraph",
-                    "label": "Description",
-                    "placeholder": "A nice description of your feature"
+                    "label": "hvitrosLysing",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "hvitrosImage": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Hvitros Image"
                   }
                 }
               },
@@ -189,23 +245,32 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "gulrot",
+            "slice_type": "hvitros",
             "items": [],
             "primary": {
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Evolve compelling convergence",
+                  "text": "Grow best-of-breed e-markets",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Reprehenderit non in consectetur consequat est do sunt sit do. Excepteur esse amet dolor laborum mollit.",
+                  "text": "Sit quis labore eiusmod dolor. Eiusmod enim dolore cillum.",
                   "spans": []
                 }
-              ]
+              ],
+              "hvitrosImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+              }
             }
           }
         },
@@ -213,31 +278,37 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\haskoli\\vor2022\\vefforritunII\\vefv6\\.slicemachine\\assets\\slices\\Hvitros\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
       },
-      "ros": {
+      "raudros": {
         "library": "slices",
-        "id": "ros",
-        "name": "Ros",
-        "description": "Ros",
+        "id": "raudros",
+        "name": "Raudros",
+        "description": "Raudros",
         "model": {
-          "id": "ros",
+          "id": "raudros",
           "type": "SharedSlice",
-          "name": "Ros",
-          "description": "Ros",
+          "name": "Raudros",
+          "description": "Raudros",
           "variations": [
             {
               "id": "default",
               "name": "Default",
               "docURL": "...",
               "version": "sktwi1xtmkfgx8626",
-              "description": "Ros",
+              "description": "Raudros",
               "primary": {
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "label": "Rós",
-                    "placeholder": "Allt um rós ",
+                    "label": "raudrosLabel",
+                    "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
                     "single": "heading1"
                   }
@@ -245,9 +316,18 @@
                 "description": {
                   "type": "StructuredText",
                   "config": {
-                    "single": "paragraph",
-                    "label": "Description",
-                    "placeholder": "A nice description of your feature"
+                    "label": "raudrosLysing",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "raudrosImage": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Raudros Image"
                   }
                 }
               },
@@ -260,23 +340,32 @@
           "default": {
             "variation": "default",
             "name": "Default",
-            "slice_type": "ros",
+            "slice_type": "raudros",
             "items": [],
             "primary": {
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Scale interactive models",
+                  "text": "Extend integrated vortals",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Elit esse aliqua officia enim non aliquip. Anim amet ex id qui occaecat. Et do enim voluptate reprehenderit nisi id dolor in voluptate reprehenderit veniam non occaecat minim.",
+                  "text": "Est dolor voluptate dolor minim consectetur pariatur nostrud adipisicing dolore in. Velit incididunt ad culpa sint dolore veniam aliquip irure sint.",
                   "spans": []
                 }
-              ]
+              ],
+              "raudrosImage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+              }
             }
           }
         },
@@ -284,7 +373,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\haskoli\\vor2022\\vefforritunII\\vefv6\\.slicemachine\\assets\\slices\\Raudros\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
       }
     }
   }

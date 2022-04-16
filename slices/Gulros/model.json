@@ -14,8 +14,8 @@
         "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Gulrós",
-            "placeholder": "Bara gulrós og allt um gull",
+            "label": "gulrosLabel",
+            "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
             "single": "heading1"
           }
@@ -23,9 +23,18 @@
         "description": {
           "type": "StructuredText",
           "config": {
-            "single": "paragraph",
-            "label": "Description",
-            "placeholder": "A nice description of your feature"
+            "label": "gulrosLysing",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "gulrosImage": {
+          "type": "Image",
+          "config": {
+            "constraint": {},
+            "thumbnails": [],
+            "label": "Gulros Image"
           }
         }
       },

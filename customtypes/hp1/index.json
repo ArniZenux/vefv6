@@ -23,14 +23,6 @@
           "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
         }
       },
-      "link1": {
-        "type": "Link",
-        "config": {
-          "label": "Link1",
-          "placeholder": "",
-          "select": null
-        }
-      },
       "ff1": {
         "type": "Link",
         "config": {
@@ -38,20 +30,21 @@
           "select": "document"
         }
       },
-      "image1": {
-        "type": "Image",
-        "config": {
-          "constraint": {},
-          "thumbnails": [],
-          "label": "Image1"
-        }
-      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "flower": {
+            "gulros": {
+              "type": "SharedSlice"
+            },
+            "raudros": {
+              "type": "SharedSlice"
+            },
+            "bleikros": {
+              "type": "SharedSlice"
+            },
+            "hvitros": {
               "type": "SharedSlice"
             }
           }

@@ -1,0 +1,16 @@
+.home {
+  &__header {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  &__h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+}

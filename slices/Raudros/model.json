@@ -1,21 +1,21 @@
 {
-  "id": "ros",
+  "id": "raudros",
   "type": "SharedSlice",
-  "name": "Ros",
-  "description": "Ros",
+  "name": "Raudros",
+  "description": "Raudros",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Ros",
+      "description": "Raudros",
       "primary": {
         "title": {
           "type": "StructuredText",
           "config": {
-            "label": "Rós",
-            "placeholder": "Allt um rós ",
+            "label": "raudrosLabel",
+            "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
             "single": "heading1"
           }
@@ -23,9 +23,18 @@
         "description": {
           "type": "StructuredText",
           "config": {
-            "single": "paragraph",
-            "label": "Description",
-            "placeholder": "A nice description of your feature"
+            "label": "raudrosLysing",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "raudrosImage": {
+          "type": "Image",
+          "config": {
+            "constraint": {},
+            "thumbnails": [],
+            "label": "Raudros Image"
           }
         }
       },

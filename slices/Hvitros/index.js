@@ -1,7 +1,7 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
-const Flower = ({ slice }) => (
+const Hvitros = ({ slice }) => (
   <section>
     <span className="title">
       {
@@ -28,4 +28,4 @@ const Flower = ({ slice }) => (
   </section>
 )
 
-export default Flower
+export default Hvitros
