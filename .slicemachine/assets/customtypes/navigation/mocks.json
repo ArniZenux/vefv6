@@ -1,0 +1,90 @@
+{
+  "id": "4b1c0781-bdd4-492f-8f18-4d8de2d92684",
+  "uid": "nostrum-qui-ipsum",
+  "type": "navigation",
+  "data": {
+    "label1": [
+      {
+        "type": "paragraph",
+        "text": "Ea consectetur officia nisi cupidatat sit consectetur laboris. Commodo tempor nostrud ea eiusmod.",
+        "spans": []
+      }
+    ],
+    "lysing1": [
+      {
+        "type": "paragraph",
+        "text": "Incididunt irure cupidatat et aliqua ad dolor. Qui consequat quis dolore in anim adipisicing est est nulla anim duis.",
+        "spans": []
+      }
+    ],
+    "blomlist": [
+      {
+        "type": "heading3",
+        "text": "Extend bricks-and-clicks supply-chains",
+        "spans": []
+      }
+    ],
+    "links": [
+      {
+        "blomNr": 4898,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Extend vertical methodologies",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "blomNr": 4488,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Monetize revolutionary users",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "blomNr": 5337,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "E-enable B2B e-services",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "blomNr": 4269,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Transition cross-platform infrastructures",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "blomNr": 4113,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Morph mission-critical infomediaries",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "blomNr": 9888,
+        "label": [
+          {
+            "type": "heading3",
+            "text": "Deploy turn-key e-commerce",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

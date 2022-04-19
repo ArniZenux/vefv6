@@ -1,0 +1,61 @@
+{
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "label1": {
+        "type": "StructuredText",
+        "config": {
+          "label": "label1",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "lysing1": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Lysing1",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "blomlist": {
+        "type": "StructuredText",
+        "config": {
+          "label": "blomlist",
+          "placeholder": "Label for the homepage link",
+          "allowTargetBlank": false,
+          "single": "heading3"
+        }
+      },
+      "links": {
+        "type": "Group",
+        "config": {
+          "label": "Links",
+          "fields": {
+            "blomNr": {
+              "type": "Number",
+              "config": {
+                "label": "Blom Nr",
+                "placeholder": ""
+              }
+            },
+            "label": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Label",
+                "placeholder": "Optional - Label for the link",
+                "allowTargetBlank": false,
+                "single": "heading3"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

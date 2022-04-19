@@ -1,0 +1,9 @@
+{
+  "id": "p1",
+  "label": "plontur",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

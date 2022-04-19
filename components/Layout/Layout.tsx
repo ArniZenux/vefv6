@@ -5,10 +5,12 @@ interface LayoutProps {
   children?: ReactNode;
 }
 
-export const Layout: FC<LayoutProps> = ({ children }) => (
+const Layout: FC<LayoutProps> = ({ children }) => (
   <div>
     <div>
       <main className={s.layout__main}>{children}</main>
     </div>
   </div>
 );
+
+export default Layout;

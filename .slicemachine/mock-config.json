@@ -1,6 +1,45 @@
 {
   "_cts": {
-    "hp1": {}
+    "hp1": {},
+    "navigation": {
+      "label1": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "blomlist": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "links": {}
+    },
+    "article": {},
+    "p1": {},
+    "fs1": {
+      "links": {
+        "label1": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        },
+        "label2": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        },
+        "label4": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      }
+    }
   },
   "slices": {
     "Gulros": {
