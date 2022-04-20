@@ -1,20 +1,20 @@
 {
-  "id": "raudros",
+  "id": "text",
   "type": "SharedSlice",
-  "name": "Raudros",
-  "description": "Raudros",
+  "name": "Text",
+  "description": "Text",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Raudros",
+      "description": "Text",
       "primary": {
         "title": {
           "type": "StructuredText",
           "config": {
-            "label": "raudrosLabel",
+            "label": "Title",
             "placeholder": "This is where it all begins...",
             "allowTargetBlank": true,
             "single": "heading1"
@@ -23,18 +23,9 @@
         "description": {
           "type": "StructuredText",
           "config": {
-            "label": "raudrosLysing",
-            "placeholder": "A nice description of your feature",
-            "allowTargetBlank": true,
-            "single": "paragraph"
-          }
-        },
-        "raudrosImage": {
-          "type": "Image",
-          "config": {
-            "constraint": {},
-            "thumbnails": [],
-            "label": "Raudros Image"
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
           }
         }
       },

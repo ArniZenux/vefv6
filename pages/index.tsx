@@ -1,9 +1,6 @@
 import Head from 'next/head';
-import { GetStaticProps } from "next";
 import { createClient } from "../prismicio";
 import * as prismicH from "@prismicio/helpers";
-import { PrismicLink } from "@prismicio/react";
-
 import Layout from '../components/Layout/Layout';
 import BlomList  from '../components/Blom/BlomList';
 import HomeHeader from '../components/Home/HomeHeader';
@@ -40,17 +37,21 @@ const Index: FC<IndexProps> = ({ navigation  }) => {
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export async function getServerSideProps() {
   const client = createClient();
+  
   let navigation = null;
  
-  try {
-    navigation = await client.getSingle("navigation");
-  } catch {
-    // yet. We don't need to do anything here. We will render a component on
-    // the page with a helpful setup message.
+  navigation = await client.getSingle("navigation");
+  
+  if(!navigation){
+    return {
+      props: {
+        navigation : null,
+      }
+    }
   }
-    
+  
   return {
     props: {
       navigation : navigation,

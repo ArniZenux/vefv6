@@ -1,13 +1,12 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
-const Gulros = ({ slice }) => (
+const Text = ({ slice }) => (
   <section>
     <span className="title">
-      {
-        slice.primary.title ?
+      { slice.primary.title ?
         <PrismicRichText field={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
+        : <h2> bal bal </h2>
       }
     </span>
     {
@@ -28,4 +27,4 @@ const Gulros = ({ slice }) => (
   </section>
 )
 
-export default Gulros
+export default Text

@@ -39,7 +39,8 @@
           }
         }
       }
-    }
+    },
+    "page": {}
   },
   "slices": {
     "Gulros": {
@@ -113,6 +114,21 @@
           }
         }
       }
-    }
+    },
+    "Image": {},
+    "Text": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "RosImage": {},
+    "ContactForm": {}
   }
 }
