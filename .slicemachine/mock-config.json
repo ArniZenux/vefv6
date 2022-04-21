@@ -115,7 +115,11 @@
         }
       }
     },
-    "Image": {},
+    "Image": {
+      "default": {
+        "primary": {}
+      }
+    },
     "Text": {
       "default": {
         "primary": {
@@ -129,6 +133,24 @@
       }
     },
     "RosImage": {},
-    "ContactForm": {}
+    "ContactForm": {},
+    "Quote": {
+      "default": {
+        "primary": {
+          "quote": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "source": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
   }
 }

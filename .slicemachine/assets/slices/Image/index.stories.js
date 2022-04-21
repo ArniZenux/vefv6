@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"image","items":[],"primary":{"title":[{"type":"heading1","text":"Reinvent e-business e-business","spans":[]}],"description":[{"type":"paragraph","text":"Nostrud eu quis ea labore culpa deserunt est laborum ullamco eiusmod mollit ea. In laborum aliqua velit cillum occaecat do magna voluptate amet adipisicing commodo nostrud pariatur. Velit dolor elit culpa.","spans":[]}]},"id":"_Default"}} />
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"image","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"}},"id":"_Default"}} />
 _Default.storyName = 'Default'

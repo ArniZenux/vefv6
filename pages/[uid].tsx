@@ -32,7 +32,7 @@ const Rosir: FC<RosirProps> = ({page}) => {
        <Head>
         <title> Verkefni 6 - 2022 </title>
       </Head>
-      <h1>Listi er til</h1>
+      <h1>Rós</h1>
         <h2>
           {prismicH.asText(page.data.title)} 
         </h2>

@@ -28,6 +28,9 @@
           "choices": {
             "text": {
               "type": "SharedSlice"
+            },
+            "quote": {
+              "type": "SharedSlice"
             }
           }
         }
