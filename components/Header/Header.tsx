@@ -1,6 +1,6 @@
 import { PrismicRichText } from '@prismicio/react';
 import React, { FC } from 'react';
-import s from './Home.module.scss';
+import s from './Header.module.scss';
 
 /**
  * The site's global header.
@@ -10,7 +10,7 @@ interface Stuff{
   lysing1: any;
 } 
 
-const HomeHeader: FC<Stuff> = ({ label1, lysing1 }) => {
+const Header: FC<Stuff> = ({ label1, lysing1 }) => {
   return (
     <header className={s.home__header}>
       <h1 className={s.home__h1}>
@@ -23,4 +23,4 @@ const HomeHeader: FC<Stuff> = ({ label1, lysing1 }) => {
   );
 };
 
-export default HomeHeader;
+export default Header;

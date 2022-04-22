@@ -1,10 +1,10 @@
 import Head from 'next/head';
-import Link from "next/link";
-import React, { FC } from "react";
-import * as prismicH from "@prismicio/helpers";
-import { SliceZone } from "@prismicio/react";
-import { components } from "../slices";
-import { createClient, linkResolver } from "../prismicio";
+import Link from 'next/link';
+import React, { FC } from 'react';
+import * as prismicH from '@prismicio/helpers';
+import { SliceZone } from '@prismicio/react';
+import { components } from '../slices';
+import { createClient, linkResolver } from '../prismicio';
 import  Layout from '../components/Layout/Layout';
 
 interface RosirProps {
@@ -12,8 +12,6 @@ interface RosirProps {
 }
 
 const Rosir: FC<RosirProps> = ({page}) => {
-  console.log("Rosir: " + page);
-
   if(!page){
   return (
     <Layout>
@@ -32,7 +30,6 @@ const Rosir: FC<RosirProps> = ({page}) => {
        <Head>
         <title> Verkefni 6 - 2022 </title>
       </Head>
-      <h1>Rós</h1>
         <h2>
           {prismicH.asText(page.data.title)} 
         </h2>
@@ -46,7 +43,7 @@ const Rosir: FC<RosirProps> = ({page}) => {
 export async function getStaticProps({params}:{params : any }){
   const client = createClient(); 
   
-  const page = await client.getByUID("page", params.uid); 
+  const page = await client.getByUID('page', params.uid); 
   
   return {
     props: {
@@ -58,7 +55,7 @@ export async function getStaticProps({params}:{params : any }){
 export async function getStaticPaths(){
   const client = createClient();
 
-  const pages = await client.getAllByType("page");
+  const pages = await client.getAllByType('page');
   return {
     paths: pages.map((page) => prismicH.asLink(page, linkResolver)),
     fallback : false,

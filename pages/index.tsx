@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import { createClient } from "../prismicio";
-import * as prismicH from "@prismicio/helpers";
+import { createClient } from '../prismicio';
+import * as prismicH from '@prismicio/helpers';
 import Layout from '../components/Layout/Layout';
 import BlomList  from '../components/Blom/BlomList';
-import HomeHeader from '../components/Home/HomeHeader';
+import Header from '../components/Header/Header';
 import React, { FC } from 'react';
 
 interface IndexProps {
@@ -18,7 +18,11 @@ const Index: FC<IndexProps> = ({ navigation  }) => {
         <Head>
           <title> Verkefni 6 - 2022 </title>
         </Head>
-        <p> Það virkar en ekki á prismic.io - þú ert á réttri leið </p>
+        <Header
+        label1={navigation.data.label1}
+        lysing1={navigation.data.lysing1}
+        />
+        <p> Engin blómlisti </p>
       </Layout>
     );
   }
@@ -28,7 +32,7 @@ const Index: FC<IndexProps> = ({ navigation  }) => {
       <Head>
         <title> {prismicH.asText(navigation.data.label1)} </title> 
        </Head>
-       <HomeHeader
+       <Header
         label1={navigation.data.label1}
         lysing1={navigation.data.lysing1}
        />
@@ -42,7 +46,7 @@ export async function getServerSideProps() {
   
   let navigation = null;
  
-  navigation = await client.getSingle("navigation");
+  navigation = await client.getSingle('navigation');
   
   if(!navigation){
     return {

@@ -31,6 +31,9 @@
             },
             "quote": {
               "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
             }
           }
         }

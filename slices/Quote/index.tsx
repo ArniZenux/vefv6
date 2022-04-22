@@ -1,25 +1,29 @@
-import React from 'react'
+import React, { FC } from 'react';
 import { PrismicRichText } from '@prismicio/react'
 
-const Quote = ({ slice }) => (
+interface QuoteProps {
+  slice: any;
+}
+
+const Quote: FC<QuoteProps> = ({ slice }) => (
   <section>
     <span className="title">
       {
         slice.primary.quote ?
         <PrismicRichText field={slice.primary.quote}/>
-        : <h2>Template slice, update me!</h2>
+        : <h2>Ljóð</h2>
       }
     </span>
     {
       slice.primary.source ?
       <PrismicRichText field={slice.primary.source}/>
-      : <p>start by editing this slice from inside Slice Machine!</p>
+      : <p>Þú ert svo fallegur ;)</p>
     }
     <style jsx>{`
         section {
-          max-width: 600px;
-          margin: 4em auto;
-          text-align: center;
+          max-width: 500px;
+          margin: 1em auto;
+          text-align: left;
         }
         .title {
           color: #8592e0;

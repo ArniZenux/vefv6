@@ -54,7 +54,7 @@
         },
         "meta": {
           "fileName": "index",
-          "extension": "js"
+          "extension": "tsx"
         },
         "screenshotPaths": {
           "default": {
@@ -132,7 +132,7 @@
         },
         "meta": {
           "fileName": "index",
-          "extension": "js"
+          "extension": "tsx"
         },
         "screenshotPaths": {}
       },
@@ -203,7 +203,7 @@
         },
         "meta": {
           "fileName": "index",
-          "extension": "js"
+          "extension": "tsx"
         },
         "screenshotPaths": {
           "default": {

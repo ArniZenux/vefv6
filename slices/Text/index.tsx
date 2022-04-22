@@ -1,11 +1,13 @@
-import React from 'react'
-import * as prismicH from "@prismicio/helpers";
+import React, { FC } from 'react';
 import { PrismicRichText } from '@prismicio/react'
 
-const Text = ({ slice }) => {
+interface TextProps {
+  slice: any;
+}
+
+const Text: FC<TextProps> = ({ slice }) => {
   return (
     <>
-    
     { slice.primary.title ? 
       <PrismicRichText field={slice.primary.title}/> : <h3>Ekki strengur</h3> 
     }
@@ -13,7 +15,6 @@ const Text = ({ slice }) => {
     { slice.primary.description ? 
       <PrismicRichText field={slice.primary.description}/> : <h3>Ekki strengur</h3> 
     }
-    
     </>
   );
 }
