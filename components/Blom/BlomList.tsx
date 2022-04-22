@@ -2,12 +2,23 @@ import React, { FC } from "react";
 import { PrismicLink, PrismicText } from "@prismicio/react";
 import b from './Blom.module.scss';
 
+export type zData = {
+  type: string; 
+  data: {
+    links : any; 
+    item : any; 
+  }
+};
+
+export type Data = zData; 
+export type List = any; 
+
 interface BlomListProps {
-  blomlist: any;
+  blomlist: Data;
 }
 
 interface NavDot {
-  children: any;
+  children: List;
 }
 
 const NavItem: FC<NavDot> = ({ children }) => {

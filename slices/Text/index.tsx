@@ -1,6 +1,13 @@
 import React, { FC } from 'react';
 import { PrismicRichText } from '@prismicio/react'
 
+export type Slice = {
+  primary: {
+    title : any; 
+    description : any;
+  }
+};
+
 interface TextProps {
   slice: any;
 }

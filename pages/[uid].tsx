@@ -7,8 +7,10 @@ import { components } from '../slices';
 import { createClient, linkResolver } from '../prismicio';
 import  Layout from '../components/Layout/Layout';
 
+export type Data = any; 
+
 interface RosirProps {
-  page: any;
+  page: Data;
 }
 
 const Rosir: FC<RosirProps> = ({page}) => {

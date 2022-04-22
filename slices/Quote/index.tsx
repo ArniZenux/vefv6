@@ -1,6 +1,14 @@
 import React, { FC } from 'react';
 import { PrismicRichText } from '@prismicio/react'
 
+export type Slice = {
+  type: string; 
+  primary: {
+    quote : any; 
+    source : any;
+  }
+};
+
 interface QuoteProps {
   slice: any;
 }

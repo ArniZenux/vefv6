@@ -6,8 +6,16 @@ import BlomList  from '../components/Blom/BlomList';
 import Header from '../components/Header/Header';
 import React, { FC } from 'react';
 
+export type zData = {
+  type: string; 
+  data: {
+    label1 : any; 
+    lysing : any; 
+  }
+};
+
 interface IndexProps {
-  navigation: any;
+  navigation: any; 
 }
 
 const Index: FC<IndexProps> = ({ navigation  }) => {

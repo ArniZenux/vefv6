@@ -2,12 +2,11 @@ import { PrismicRichText } from '@prismicio/react';
 import React, { FC } from 'react';
 import s from './Header.module.scss';
 
-/**
- * The site's global header.
- */
+export type RichText = any
+
 interface Stuff{
-  label1: any;
-  lysing1: any;
+  label1: RichText;
+  lysing1: RichText;
 } 
 
 const Header: FC<Stuff> = ({ label1, lysing1 }) => {

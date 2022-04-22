@@ -1,12 +1,20 @@
 import React, { FC } from 'react';
 import { asText } from '@prismicio/helpers';
 
+export type Slice = {
+  type: string; 
+  primary: {
+    image? : any;
+    url : any; 
+    imagetxt : any;
+  }
+};
+
 interface ImageProps {
   slice: any;
 }
 
 const Image: FC<ImageProps> = ({ slice }) => {
-  const image = slice.primary.image;
 
   return (
     <div>
